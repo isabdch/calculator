@@ -1,11 +1,11 @@
 # Calculator
 
-![](https://img.shields.io/github/forks/isabdch/calculator?color=%2304b8ff&style=for-the-badge)
-![](https://img.shields.io/github/languages/count/isabdch/calculator?color=%2304b8ff&style=for-the-badge)
-![](https://img.shields.io/github/repo-size/isabdch/calculator?color=%2304b8ff&style=for-the-badge)
-![](https://img.shields.io/github/issues/isabdch/calculator?color=%2304b8ff&style=for-the-badge)
-![](https://img.shields.io/github/stars/isabdch/calculator?color=%2304b8ff&style=for-the-badge)
-![](https://img.shields.io/github/license/isabdch/calculator?color=%2304b8ff&style=for-the-badge)
+![](https://img.shields.io/github/forks/isabdch/calculator?color=%2300FFCD&style=for-the-badge)
+![](https://img.shields.io/github/languages/count/isabdch/calculator?color=%2300FFCD&style=for-the-badge)
+![](https://img.shields.io/github/repo-size/isabdch/calculator?color=%2300FFCD&style=for-the-badge)
+![](https://img.shields.io/github/issues/isabdch/calculator?color=%2300FFCD&style=for-the-badge)
+![](https://img.shields.io/github/stars/isabdch/calculator?color=%2300FFCD&style=for-the-badge)
+![](https://img.shields.io/github/license/isabdch/calculator?color=%2300FFCD&style=for-the-badge)
 
  ## [SITE HERE](https://isabdch.github.io/calculator/)
 ![](images/screenshot.png)
