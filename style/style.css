@@ -72,7 +72,6 @@ button:active {
 }
 
 h1 {
-    pointer-events: none;
     grid-area: h1;
     height: 70px;
     width: 255px;
