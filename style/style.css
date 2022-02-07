@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #655A7C;
+}
+
+.container {
+    height: 450px;
+    width: 290px;
+    display: grid;
+    grid-template-areas: "h1 h1 h1 h1"
+                         "clear delete plus minus"
+                         "n7 n8 n9 mult"
+                         "n4 n5 n6 divide"
+                         "n1 n2 n3 equal"
+                         "point n0 percent equal";
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    background-color: #AB92BF;
+    box-shadow: 8px 8px 0px #51456b;
+    border-radius: 30px;
+}
+
+button {
+    cursor: pointer;
+    width: 55px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #AFC1D6;
+    box-shadow: 3px 3px 0px #8e70a7;
+    color: #655A7C;
+    font-size: large;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: #CEF9F2;
+}
+
+button:active {
+    background-color: #AFC1D6;
+}
+
+h1 {
+    grid-area: h1;
+    padding: 20px;
+    margin-bottom: 14px;
+    background-color: #f5f5f5;
+    color: #655A7C;
+    border-top: 8px solid #8e70a7;
+    border-right: 2px solid #8e70a7;
+    border-left: 2px solid #8e70a7;
+    border-radius: 25px;
+}
+
+#clear {
+    grid-area: clear;
+    background-color: #CEF9F2;
+}
+
+#clear:hover {
+    background-color: #00FFCD;
+}
+
+#clear:active {
+    background-color: #CEF9F2;
+}
+
+#delete {
+    grid-area: delete;
+    background-color: #CEF9F2;
+}
+
+#delete:hover {
+    background-color: #00FFCD;
+}
+
+#delete:active {
+    background-color: #CEF9F2;
+}
+
+#plus {
+    grid-area: plus;
+    background-color: #CEF9F2;
+}
+
+#plus:hover {
+    background-color: #00FFCD;
+}
+
+#plus:active {
+    background-color: #CEF9F2;
+}
+
+#minus {
+    grid-area: minus;
+    background-color: #CEF9F2;
+}
+
+#minus:hover {
+    background-color: #00FFCD;
+}
+
+#minus:active {
+    background-color: #CEF9F2;
+}
+
+#n7 {
+    grid-area: n7;
+}
+
+#n8 {
+    grid-area: n8;
+}
+
+#n9 {
+    grid-area: n9;
+}
+
+#mult {
+    grid-area: mult;
+    background-color: #CEF9F2;
+}
+
+#mult:hover {
+    background-color: #00FFCD;
+}
+
+#mult:active {
+    background-color: #CEF9F2;
+}
+
+#n4 {
+    grid-area: n4;
+}
+
+#n5 {
+    grid-area: n5;
+}
+
+#n6 {
+    grid-area: n6;
+}
+
+#divide {
+    grid-area: divide;
+    background-color: #CEF9F2;
+}
+
+#divide:hover {
+    background-color: #00FFCD;
+}
+
+#divide:active {
+    background-color: #CEF9F2;
+}
+
+#n1 {
+    grid-area: n1;
+}
+
+#n2 {
+    grid-area: n2;
+}
+
+#n3 {
+    grid-area: n3;
+}
+
+#equal {
+    grid-area: equal;
+    height: 110px;
+    background-color: #00FFCD;
+}
+
+#equal:hover {
+    background-color: #04b8ff;
+}
+
+#equal:active {
+    background-color: #00FFCD;
+}
+
+#point {
+    grid-area: point;
+    background-color: #CEF9F2;
+}
+
+#point:hover {
+    background-color: #00FFCD;
+}
+
+#point:active {
+    background-color: #CEF9F2;
+}
+
+#n0 {
+    grid-area: n0;
+}
+
+#percent {
+    grid-area: percent;
+    background-color: #CEF9F2;
+}
+
+#percent:hover {
+    background-color: #00FFCD;
+}
+
+#percent:active {
+    background-color: #CEF9F2;
+}
