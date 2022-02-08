@@ -20,7 +20,10 @@
 <body>
     <a href="https://github.com/isabdch" target="_blank"><img src="./images/github.png" height="23px"></a>
     <div class="container">
-        <h1 data-placeholder="0"></h1>
+        <div id="screen">
+            <h1 data-placeholder="0"></h1>
+            <div id="inScreen"></div>
+        </div>
         <button onclick="clearScreen()" id="clear">C</button>
         <button onclick="deleteScreen()" id="delete"><i class="fa-solid fa-delete-left"></i></button>
         <button onclick="updateScreen(this)" id="plus">+</button>
@@ -39,7 +42,6 @@
         <button onclick="showResult()" id="equal"><i class="fa-regular fa-equals"></i></button>
         <button onclick="updateScreen(this)" id="point">.</button>
         <button onclick="updateScreen(this)" id="n0">0</button>
-        <button onclick="updateScreen(this)" id="percent">%</button>
     </div>
 </body>
 

@@ -8,7 +8,7 @@
 ![](https://img.shields.io/github/license/isabdch/calculator?color=%2300FFCD&style=for-the-badge)
 
  ## [SITE HERE](https://isabdch.github.io/calculator/)
-![](images/screenshot.png)
+![](images/screenshot1.png)
 
 ## 📖 Table of Contents
 
