@@ -2,8 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'PT Mono', monospace;
     font-weight: bold;
+    font-family: 'Oxanium', monospace;
     scrollbar-width: thin;
     scrollbar-color: #e2e2e2 #8e70a7;
 }
