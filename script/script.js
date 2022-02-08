@@ -10,7 +10,12 @@ function clearScreen() {
 
 function deleteScreen() {
   screen.innerHTML = screen.innerHTML.slice(0, -1);
-  inScreen.innerHTML = inScreen.innerHTML.slice(0, -1);
+  
+  if (eval(screen.innerHTML) == undefined) {
+    inScreen.innerHTML = "";
+  } else {
+    inScreen.innerHTML = eval(screen.innerHTML);
+  }
 }
 
 function updateScreen(element) {
