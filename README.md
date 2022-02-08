@@ -17,7 +17,7 @@
 
 ## ✏️ Project Description
 
-A calculator that I made to practice grid and flexbox. 
+This is a basic calculator project I made to practice grid and flexbox. 
 
 Project is created with:
 
